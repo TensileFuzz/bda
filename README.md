@@ -2,6 +2,8 @@
 
 ## Description
 
+Please install [radare2](https://github.com/radare/radare2) on your machine first. After that, following executable could run directly on Ubuntu 16.04.
+
 + `rexe`: Sampling-based abstract interpreter
 
 + `rgdb`: GDB for sampling-based abstract interpretr
@@ -27,7 +29,7 @@ RUST_LOG=info ./rdep -d <refer.dep> <binary>
 
 ## More
 
-`rgdb` could also help you debug abstract interpreter
+`rgdb` could also help you debug abstract interpreter.
 
 ```bash
 ./rgdb <binary>
