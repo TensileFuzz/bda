@@ -45,7 +45,7 @@ RUST_LOG=info ./rdep -d <refer.dep> <binary>
 
 In following demo, we sample `181.mcf` for 300 times. At last, we get *2 Missing Dependence* and *143 More Dependence*, compared with *2053 Refer Dependence*.
 
-[![asciicast](https://asciinema.org/a/239600.svg)](https://asciinema.org/a/239600)
+[![asciicast](https://asciinema.org/a/239630.svg)](https://asciinema.org/a/239630)
 
 ## More
 
