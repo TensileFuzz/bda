@@ -57,7 +57,7 @@ Additionally, `rgdb` could help you dig into more internal data of abstract inte
 
 ### 181.mcf Demo
 
-[![asciicast](https://asciinema.org/a/239602.svg)](https://asciinema.org/a/239602)
+[![asciicast](https://asciinema.org/a/239633.svg)](https://asciinema.org/a/239633)
 
 ## Postscript
 
