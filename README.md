@@ -1,6 +1,6 @@
 # BDA: Practical Dependence Analysis for Binary Executables by Unbiased Whole-program Path Sampling and Per-path Abstract Interpretation
 
-## Description
+## TL;DR
 
 Please install [radare2](https://github.com/radare/radare2) on your machine first. Note that we do not support the newest version radare2 (*we will support it in upcoming source code*), due to its fast development. Thus, please use following commands to install radare2.
 
@@ -12,7 +12,9 @@ sys/user.sh
 echo "PATH=\$PATH:\$HOME/bin" >> ~/.bashrc
 ```
 
-After that, following executable could run directly on Ubuntu 16.04.
+After that, all the executable could run directly on Ubuntu 16.04.
+
+## Description
 
 + `rexe`: Sampling-based abstract interpreter
 
@@ -38,6 +40,8 @@ RUST_LOG=info ./rdep -d <refer.dep> <binary>
 ```
 
 ### 181.mcf Demo
+
+In following demo, we sample `181.mcf` for 300 times. At last, we get *2 Missing Dependence* and *143 More Dependence*, compared with *2053 Refer Dependence*.
 
 [![asciicast](https://asciinema.org/a/239600.svg)](https://asciinema.org/a/239600)
 
