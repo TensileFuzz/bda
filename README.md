@@ -2,13 +2,13 @@
 
 ## Description
 
-+ rexe: Sampling-based abstract interpreter
++ `rexe`: Sampling-based abstract interpreter
 
-+ rgdb: GDB for sampling-based abstract interpretr
++ `rgdb`: GDB for sampling-based abstract interpretr
 
-+ rdep: Sampling-based posterior analyzer
++ `rdep`: Sampling-based posterior analyzer
 
-+ rinfo: Binary basic information dumper
++ `rinfo`: Binary basic information dumper
 
 
 ## Basic Usage
