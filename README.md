@@ -37,6 +37,10 @@ RUST_LOG=info ./rexe -t <sample.time> <binary>
 RUST_LOG=info ./rdep -d <refer.dep> <binary>
 ```
 
+### 181.mcf Demo
+
+[![asciicast](https://asciinema.org/a/239600.svg)](https://asciinema.org/a/239600)
+
 ## More
 
 Additionally, `rgdb` could help you dig into more internal data of abstract interpreter.
@@ -44,6 +48,10 @@ Additionally, `rgdb` could help you dig into more internal data of abstract inte
 ```bash
 ./rgdb <binary>
 ```
+
+### 181.mcf Demo
+
+[![asciicast](https://asciinema.org/a/239602.svg)](https://asciinema.org/a/239602)
 
 ## Postscript
 
