@@ -2,7 +2,17 @@
 
 ## Description
 
-Please install [radare2](https://github.com/radare/radare2) on your machine first. After that, following executable could run directly on Ubuntu 16.04.
+Please install [radare2](https://github.com/radare/radare2) on your machine first. Note that we do not support the newest version radare2 (*we will support it in upcoming source code*), due to its fast development. Thus, please use following commands to install radare2.
+
+```bash
+git clone https://github.com/radare/radare2.git
+cd radare2/
+git checkout 5d698c76ae8a94226532b67711983e38221f21d2 .
+sys/user.sh
+echo "PATH=\$PATH:\$HOME/bin" >> ~/.bashrc
+```
+
+After that, following executable could run directly on Ubuntu 16.04.
 
 + `rexe`: Sampling-based abstract interpreter
 
@@ -16,20 +26,20 @@ Please install [radare2](https://github.com/radare/radare2) on your machine firs
 ## Basic Usage
 
 ```bash
-./rexe -t 1000 <binary>
+./rexe -t <sample.time> <binary>
 ./rdep -d <refer.dep> <binary>
 ```
 
-You can also set log level for more information, as follows
+You can also set log level for more information.
 
 ```bash
-RUST_LOG=info ./rexe -t 1000 <binary>
+RUST_LOG=info ./rexe -t <sample.time> <binary>
 RUST_LOG=info ./rdep -d <refer.dep> <binary>
 ```
 
 ## More
 
-`rgdb` could also help you debug abstract interpreter.
+Additionally, `rgdb` could help you dig into more internal data of abstract interpreter.
 
 ```bash
 ./rgdb <binary>
