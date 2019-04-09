@@ -47,7 +47,7 @@ In the following demo, we sampled `181.mcf` for 300 times. At last, we got *2 Mi
 
 [![asciicast](https://asciinema.org/a/239700.svg)](https://asciinema.org/a/239700)
 
-## More
+## Auxiliary Tool
 
 Additionally, `rgdb` could help you dig into more internal data of abstract interpreter.
 
